@@ -1,0 +1,273 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a, button {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown {
+    /*
+        position: relative;
+        display: inline-block; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+    position: fixed;
+
+    left: 66%;
+    top: 20%;
+
+}
+
+/* end of responsive nav bar */
+.form-control_input-lg {
+    background-color: lightblue;
+    position: absolute;
+    margin: 0;
+    padding: 5px 10px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid green;
+    border-right: 2px;
+    border-top-left-radius: 5px 5px;
+    border-right: 1px solid green;
+    font-style: italic;
+    height: 30px;
+    width: 45%;
+    top: 30%;
+    left: 2%;
+}
+
+#sh {
+    position: absolute;
+    right: 80px;
+    top: 30%;
+    left: 51%;
+    padding: 14px 15px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-shadow: 0 0 1px #000;
+    cursor: pointer;
+    color: #fff;
+    border-right: 0;
+    background: linear-gradient(lightblue, cyan);
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    height: 20px;
+    border: 2px solid #0076a3;
+
+}
+
+.JobSearchForm {
+    position: absolute;
+    width: 60%;
+    height: 150px;
+    left: 30px;
+    right: 300px;
+    top: 40%;
+    opacity: 1;
+    border: 2px solid;
+}
+
+lable#Job_Title {
+    position: absolute;
+    left: 4%;
+    top: 12%;
+    width: 18%;
+    font-size: 80%;
+}
+
+input#Job_Title_box {
+    position: absolute;
+    left: 22%;
+    top: 12%;
+    width: 18%;
+}
+
+lable#education {
+    position: absolute;
+    left: 45%;
+    top: 12%;
+    font-size: 80%;
+
+}
+
+select#education_box {
+    position: absolute;
+    left: 70%;
+    top: 12%;
+    width: 20%;
+    height: 18%;
+}
+
+#salary {
+    position: absolute;
+    left: 4%;
+    top: 60%;
+    font-size: 80%;
+}
+
+select#salary_box {
+    position: absolute;
+    left: 22%;
+    top: 60%;
+    width: 12%;
+    height: 14%;
+}
+
+input#degree {
+    position: absolute;
+    left: 38%;
+    top: 60%;
+
+}
+
+lable#D {
+    position: absolute;
+    left: 42%;
+    top: 60%;
+    font-size: 80%;
+}
+
+input#pg {
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+
+lable#PG {
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    font-size: 80%;
+}
+
+input#phd {
+    position: absolute;
+    left: 75%;
+    top: 60%;
+}
+
+lable#PHD {
+    position: absolute;
+    left: 80%;
+    top: 60%;
+    font-size: 80%;
+}
+
+img.share {
+    position: absolute;
+    top: 72%;
+    left: 52%;
+    width: 3%;
+    /*    margin-top: 60px;
+        margin-left: 600px; */
+}
+
+img#facebook {
+    position: absolute;
+    top: 72%;
+    left: 56%;
+    width: 3%;
+
+}
+
+img#twitter {
+    position: absolute;
+    top: 72%;
+    left: 60%;
+    width: 3%;
+}
+
+img#google_plus {
+    position: absolute;
+    top: 72%;
+    left: 64%;
+    width: 3%;
+}
+
+#outerbox {
+    width: 700px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 890px;
+
+}
+
+div#sliderbox {
+    position: absolute;
+    top: 140%;
+    width: 68%;
+    left: 30px;
+    animation-name: test;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation: test 20s infinite;
+}
+
+#sliderbox img {
+    float: left;
+}
+
+@keyframes test {
+    0% {
+        left: 30px;
+    }
+    20% {
+
+        left: 30px;
+    }
+    25% {
+        left: -300px;
+    }
+    45% {
+        left: -300px;
+    }
+    50% {
+        left: -600px;
+    }
+    70% {
+        left: -600px;
+    }
+    75% {
+        left: -900px;
+    }
+    95% {
+        left: -900px;
+
+    }
+    100% {
+        left: -1200px;
+    }
+}
+

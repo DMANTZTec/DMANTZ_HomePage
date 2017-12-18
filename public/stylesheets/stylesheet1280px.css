@@ -1,0 +1,266 @@
+@media screen and (min-width:768px) and (max-width:1400px) {
+    .dropbtn {
+        display: none;
+    }
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.form-control_input-lg {
+    background-color: red;
+    position: absolute;
+    margin: 0;
+    padding: 5px 10px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid green;
+    border-right: 2px;
+    border-top-left-radius: 5px 5px;
+    border-right: 1px solid green;
+    font-style: italic;
+    height: 30px;
+    width: 45%;
+    top: 30%;
+    left: 2%;
+}
+
+#sh {
+    position: absolute;
+    right: 80px;
+    top: 30%;
+    left: 51%;
+    padding: 14px 15px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-shadow: 0 0 1px #000;
+    cursor: pointer;
+    color: #fff;
+    border-right: 0;
+    background: linear-gradient(lightblue, cyan);
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    height: 20px;
+    border: 2px solid #0076a3;
+
+}
+
+.JobSearchForm {
+    position: absolute;
+    width: 60%;
+    height: 150px;
+    left: 30px;
+    right: 300px;
+    top: 40%;
+    opacity: 1;
+    border: 2px solid;
+}
+
+.searchResults {
+    position: absolute;
+    border: 1px solid black;
+    width: 70%;
+    height: 300px;
+    overflow: scroll;
+    top: 78%;
+    left: 2%;
+
+}
+h4#Detailed_Search {
+    position: absolute;
+    top:35%;
+    left:2%;
+}
+
+lable#Job_Title {
+    position: absolute;
+    left: 4%;
+    top: 12%;
+    width: 18%;
+
+}
+
+input#Job_Title_box {
+    position: absolute;
+    left: 16%;
+    top: 12%;
+    width: 18%;
+}
+
+lable#education {
+    position: absolute;
+    left: 45%;
+    top: 12%;
+    font-size: 100%;
+
+}
+
+select#education_box {
+    position: absolute;
+    left: 60%;
+    top: 12%;
+    width: 20%;
+    height: 18%;
+}
+
+#salary {
+    position: absolute;
+    left: 4%;
+    top: 60%;
+
+}
+
+select#salary_box {
+    position: absolute;
+    left: 16%;
+    top: 60%;
+    width: 12%;
+    height: 16%;
+}
+
+input#degree {
+    position: absolute;
+    left: 38%;
+    top: 60%;
+
+}
+
+lable#D {
+    position: absolute;
+    left: 42%;
+    top: 60%;
+
+}
+
+input#pg {
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+
+lable#PG {
+    position: absolute;
+    left: 65%;
+    top: 60%;
+
+}
+
+input#phd {
+    position: absolute;
+    left: 75%;
+    top: 60%;
+}
+
+lable#PHD {
+    position: absolute;
+    left: 80%;
+    top: 60%;
+
+}
+h2#result {
+    position: absolute;
+    left:2%;
+    top:68%;
+}
+img.share {
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    width: 3%;
+    /*    margin-top: 60px;
+        margin-left: 600px; */
+}
+
+img#facebook {
+    position: absolute;
+    top: 70%;
+    left: 56%;
+    width: 3%;
+
+}
+
+img#twitter {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    width: 3%;
+}
+
+img#google_plus {
+    position: absolute;
+    top: 70%;
+    left: 64%;
+    width: 3%;
+}
+#outerbox {
+    width: 700px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 890px;
+
+}
+
+div#sliderbox {
+    position: absolute;
+    top: 140%;
+    width: 68%;
+    left: 30px;
+    animation-name: test;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation: test 20s infinite;
+}
+
+#sliderbox img {
+    float: left;
+}
+
+@keyframes test {
+    0% {
+        left: 30px;
+    }
+    20% {
+
+        left: 30px;
+    }
+    25% {
+        left: -300px;
+    }
+    45% {
+        left: -300px;
+    }
+    50% {
+        left: -600px;
+    }
+    70% {
+        left: -600px;
+    }
+    75% {
+        left: -900px;
+    }
+    95% {
+        left: -900px;
+
+    }
+    100% {
+        left: -1200px;
+    }
+}
+
+
+/* end of media query */
