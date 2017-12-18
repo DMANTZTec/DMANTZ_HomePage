@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/livesearch2.css' />
+    <link rel='stylesheet' href='/stylesheets/login1.css' />
+    <link rel='stylesheet'  href='/stylesheets/Registration_form.css' />
+    <link rel='stylesheet' href='/stylesheets/Contact_Section.css' />
+    <link rel="stylesheet" href='/stylesheets/stylesheet800px.css' media="screen and (max-width:768px)"/>
+    <link rel="stylesheet" href='/stylesheets/stylesheet1280px.css' media="screen and (min-width:768px) and (max-width:1400px)"/>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
+    <script src="javascripts/jic_common.js"> </script>
+    <meta name="google-signin-client_id"
+          content="656239353226-jgtpuj5m6o1sp3b972f74nhvs4vk28lg.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+    <link rel='stylesheet' href='/stylesheets/Contact_Section.css' />
+
+    <!--
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+    -->
+    <style>
+        /*
+          @media screen and (min-width: 480px) {
+          body {
+            background-color: lightblue;
+          }
+        } */
+        /*
+          .topnav {
+            overflow: hidden;
+            background-color: #333;
+
+          }
+
+          .topnav a {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          } */
+
+
+    </style>
+</head>
+<body>
+
+<h2><center>JOB INFO CENTER</center></h2>
+
+<div class="topnav">
+    <div class="dropdown">
+        <button onclick="myDropdown()" class="dropbtn"><img src="images/menu_icon.png" style="width:20px;height:20px;"/></button>
+
+        <div id="myDropdown" class="dropdown-content">
+            <a id="contact" onclick="contactdisplay()" href="#">Contact</a>
+            <a href="#" onclick="loginform()"><img src="images/signin1.png" style="width: 20px;height: 20px <"></a>
+        </div>
+    </div>
+</div>
+
+<!--<button id="contact" onclick="contactdisplay()">Contact </button> -->
+<div class="w3-container" >
+    <% include Contact_Section %>
+    <% include Registration_form %>
+    <% include login  %>
+    <% include searchblock %>
+    <% include adsliderbox %>
+</div>
+<script>
+
+</script>
+</body>
+</html>
