@@ -1,0 +1,71 @@
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheets/Registration_form.css">
+</head>
+<body>
+<div id="RegistrationModal">
+    <div id="Registration_form" style="display: block;">
+
+        <div id="errorBox"></div>
+
+        <div id="Registration_Title">
+            Registration Form
+        </div>
+        <div id="First_Name">First Name</div>
+        <div id="Fname_box">
+            <form id="Registration">
+
+                <input  id="FirstNameText" type="text" placeholder="Firstname"/>
+        </div>
+
+        <div id="Last_Name">
+            Last Name
+        </div>
+
+        <div id="E-mail">
+        <span id="E_M">
+            E-mail<br/>
+        </span>
+        </div>
+        <div id="Password">
+        <span id="PWD">
+            Password
+        </span>
+        </div>
+        <div id="confirm_password">
+        <span id="c_pwd">
+            Confirm Password<br/>
+        </span>
+        </div>
+
+        <input type="text" id="Lname_box" placeholder="lastname"/>
+        <input type="text" id="Email_box" placeholder="e-mail"/>
+        <input type="password" id="Password_box"  placeholder="password" onkeyup='check();'/>
+        <span id='message1'></span>
+        <input type="password" id="Confirm_pwd_box" placeholder="confirm_password" onkeyup='check();'/>
+        <input type="text" id="Enter_Captcha_box" placeholder="Enter Captha Text"/>
+        <input type="text" id="Captcha"/>
+        <div id="_26">
+        </div>
+        <div id="_27">
+        </div>
+
+        <input type="button"  id="captcha_image"  onclick= "GenerateCaptcha1()" />
+        </form>
+        <button id="Submit" onclick="validateRegistration()">Submit</button>
+        <button id="Reset" onclick= "resetform()">Reset </button>
+    </div>
+
+    <div id="registersuccess" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>You are successfully registered click here to" +
+                '<a id="loginclick" onclick="loginform();">Login</a>'</p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "dmantz-home-page",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.9",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-myconnection": "^1.0.4",
+    "express-mysql-session": "^1.2.3",
+    "jsdom": "^11.4.0",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "node-inspector": "^1.1.1",
+    "rotating-file-stream": "^1.3.4",
+    "serve-favicon": "^2.4.5",
+    "simple-node-logger": "^0.93.33",
+    "solr-node": "^1.0.13"
+  }
+}
