@@ -109,23 +109,23 @@ lable#Job_Title {
 
 input#Job_Title_box {
     position: absolute;
-    left: 22%;
+    left: 26%;
     top: 12%;
     width: 18%;
 }
 
 lable#education {
     position: absolute;
-    left: 45%;
-    top: 12%;
+    left: 4%;
+    top: 42%;
     font-size: 80%;
 
 }
 
 select#education_box {
     position: absolute;
-    left: 70%;
-    top: 12%;
+    left: 26%;
+    top: 42%;
     width: 20%;
     height: 18%;
 }
@@ -133,55 +133,55 @@ select#education_box {
 #salary {
     position: absolute;
     left: 4%;
-    top: 60%;
+    top: 72%;
     font-size: 80%;
 }
 
 select#salary_box {
     position: absolute;
-    left: 22%;
-    top: 60%;
+    left: 26%;
+    top: 72%;
     width: 12%;
     height: 14%;
 }
 
 input#degree {
     position: absolute;
-    left: 38%;
-    top: 60%;
+    left: 40%;
+    top: 72%;
 
 }
 
 lable#D {
     position: absolute;
-    left: 42%;
-    top: 60%;
+    left: 44%;
+    top: 72%;
     font-size: 80%;
 }
 
 input#pg {
     position: absolute;
-    left: 60%;
-    top: 60%;
+    left: 62%;
+    top: 72%;
 }
 
 lable#PG {
     position: absolute;
-    left: 65%;
-    top: 60%;
+    left: 67%;
+    top: 72%;
     font-size: 80%;
 }
 
 input#phd {
     position: absolute;
-    left: 75%;
-    top: 60%;
+    left: 77%;
+    top: 72%;
 }
 
 lable#PHD {
     position: absolute;
-    left: 80%;
-    top: 60%;
+    left: 82%;
+    top: 72%;
     font-size: 80%;
 }
 
